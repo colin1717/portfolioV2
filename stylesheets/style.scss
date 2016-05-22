@@ -1,0 +1,71 @@
+body {
+  font-family: "Raleway", sans-serif;
+  max-width: 100%;
+  max-width: 100%;
+  margin: auto;
+} h1 {
+  color: #ccc;
+  weight: 300;
+}
+
+.desk-box {
+  position: relative;
+  height: 700px;
+  background: url(../images/background.png);
+  background-size: cover;
+  //background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.mac {
+  width: 960px;
+  height: 600px;
+  position: absolute;
+  left: 25%;
+  margin-left: -225px;
+  top: 25%;
+  margin-top: -100px;
+  background-position: right;
+  background-image: url(../images/mac.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.ipad {
+  width: 960px;
+  height: 600px;
+  position: absolute;
+  background-image: url(../images/ipad.png);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.iphone {
+  width: 150px;
+  height: 325px;
+  position: absolute;
+  background-image: url(../images/iphone.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  left: 25%;
+  margin-left: -200px;
+  margin-top: 325px;
+}
+
+.content {
+  article {
+    padding: 100px 0;
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.space {
+  height: 2000px;
+}
+
+

@@ -1,0 +1,1 @@
+$(window).scroll(function(){var s=$(this).scrollTop();$(".mac").css({transform:"translate(0px, "+s/8+"%)"}),$(".ipad").css({transform:"translate(0px, "+s/16+"%)"})});
