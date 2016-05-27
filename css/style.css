@@ -79,6 +79,7 @@ nav {
   height: 2000px; }
 
 .projects {
+  font-family: "Raleway", sans-serif;
   height: 600px;
   background: url(../images/background.png);
   background-size: cover;
@@ -90,7 +91,8 @@ nav {
     color: white; }
   .projects .project1 {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    align-items: center; }
     .projects .project1 img {
       height: 400px; }
     .projects .project1 .image {
@@ -98,9 +100,16 @@ nav {
       width: 40%;
       position: absolute; }
     .projects .project1 .description {
-      height: 400px;
-      width: 40%;
+      height: 300px;
+      width: 35%;
+      border-radius: 5px;
       background-color: white;
       display: none;
       position: absolute;
-      right: 50px; }
+      right: 50px;
+      margin-top: 30px;
+      padding: 0px 10px 0 10px; }
+      .projects .project1 .description h3 {
+        padding-top: 15px; }
+      .projects .project1 .description p {
+        margin: 0 5px 0 5px; }
