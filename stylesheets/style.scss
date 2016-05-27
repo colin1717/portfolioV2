@@ -3,9 +3,12 @@ body {
   max-width: 100%;
   max-width: 100%;
   margin: auto;
-} h1 {
+  text-align: center;
+
+   h1 {
   color: #ccc;
   weight: 300;
+  }
 }
 
 nav {
@@ -93,6 +96,64 @@ nav {
 
 .space {
   height: 2000px;
+}
+
+.projects {
+
+  font-family: "Raleway", sans-serif;
+  height: 600px;
+  background: url(../images/background.png);
+  background-size: cover;
+  background-attachment: fixed;
+
+  hr {
+    width: 600px;
+  }
+
+  h2 {
+    padding-top: 30px;
+    color: white;
+  }
+
+  .project1 {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    img {
+      height: 400px;
+    }
+
+    .image {
+      height: 400px;
+      width: 40%;
+      //background-color: transparentize(white, .5);
+      position: absolute;
+    }
+
+    .description {
+      height: 300px;
+      width: 35%;
+      border-radius: 5px;
+      background-color: white;
+      display: none;
+      position: absolute;
+      right: 50px;
+      margin-top: 30px;
+      padding: 0px 10px 0 10px;
+
+      h3 {
+        padding-top: 15px;
+      }
+
+      p {
+        margin: 0 5px 0 5px;
+      }
+
+    }
+
+  }
 }
 
 
