@@ -2,11 +2,11 @@ body {
   font-family: "Raleway", sans-serif;
   max-width: 100%;
   max-width: 100%;
-  margin: auto; }
-
-h1 {
-  color: #ccc;
-  weight: 300; }
+  margin: auto;
+  text-align: center; }
+  body h1 {
+    color: #ccc;
+    weight: 300; }
 
 nav {
   height: 38px;
@@ -77,3 +77,13 @@ nav {
 
 .space {
   height: 2000px; }
+
+.projects {
+  height: 600px;
+  background: url(../images/background.png);
+  background-attachment: fixed; }
+  .projects hr {
+    width: 600px; }
+  .projects h2 {
+    padding-top: 30px;
+    color: white; }

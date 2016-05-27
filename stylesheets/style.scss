@@ -3,9 +3,12 @@ body {
   max-width: 100%;
   max-width: 100%;
   margin: auto;
-} h1 {
+  text-align: center;
+
+   h1 {
   color: #ccc;
   weight: 300;
+  }
 }
 
 nav {
@@ -93,6 +96,23 @@ nav {
 
 .space {
   height: 2000px;
+}
+
+.projects {
+
+  height: 600px;
+  background: url(../images/background.png);
+  background-attachment: fixed;
+
+  hr {
+    width: 600px;
+  }
+
+  h2 {
+    padding-top: 30px;
+    color: white;
+  }
+
 }
 
 
