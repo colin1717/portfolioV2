@@ -8,6 +8,33 @@ body {
   weight: 300;
 }
 
+nav {
+  height: 38px;
+  background-color: white;
+  color: darken(#ccc, 20%);
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 5px 15px;
+
+    li {
+      //flex-basis: auto;
+      height: 25px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 5px 5px 0px 5px;
+      margin-left: 3px;
+
+      &:hover {
+        border: 1px solid darken(#ccc, 30%);
+        background-color: lighten(#ccc, 15%);
+      }
+    }
+  }
+}
+
 .desk-box {
   position: relative;
   height: 700px;

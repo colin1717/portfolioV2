@@ -8,6 +8,25 @@ h1 {
   color: #ccc;
   weight: 300; }
 
+nav {
+  height: 38px;
+  background-color: white;
+  color: #999999; }
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 5px 15px; }
+    nav ul li {
+      height: 25px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 5px 5px 0px 5px;
+      margin-left: 3px; }
+      nav ul li:hover {
+        border: 1px solid gray;
+        background-color: #f2f2f2; }
+
 .desk-box {
   position: relative;
   height: 700px;
