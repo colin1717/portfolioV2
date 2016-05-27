@@ -81,9 +81,24 @@ nav {
 .projects {
   height: 600px;
   background: url(../images/background.png);
+  background-size: cover;
   background-attachment: fixed; }
   .projects hr {
     width: 600px; }
   .projects h2 {
     padding-top: 30px;
     color: white; }
+  .projects .project1 {
+    display: flex;
+    justify-content: space-around; }
+    .projects .project1 .image {
+      height: 400px;
+      width: 40%;
+      background-color: rgba(255, 255, 255, 0.5); }
+    .projects .project1 .description {
+      height: 400px;
+      width: 40%;
+      background-color: rgba(0, 0, 255, 0.5);
+      display: none; }
+    .projects .project1 .addItem {
+      flex-grow: 1; }

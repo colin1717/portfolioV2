@@ -1,1 +1,1 @@
-$(window).scroll(function(){var s=$(this).scrollTop();$(".mac").css({transform:"translate(0px, "+s/8+"%)"}),$(".ipad").css({transform:"translate(0px, "+s/16+"%)"})});
+$(window).scroll(function(){var o=$(this).scrollTop();$(".mac").css({transform:"translate(0px, "+o/8+"%)"}),$(".ipad").css({transform:"translate(0px, "+o/16+"%)"}),o>$(".project1").offset().top-$(window).height()/1.5&&(console.log("balls"),$(".project1 .description").show(500))});

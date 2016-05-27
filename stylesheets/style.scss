@@ -102,6 +102,7 @@ nav {
 
   height: 600px;
   background: url(../images/background.png);
+  background-size: cover;
   background-attachment: fixed;
 
   hr {
@@ -113,6 +114,29 @@ nav {
     color: white;
   }
 
+  .project1 {
+
+    display: flex;
+    justify-content: space-around;
+
+    .image {
+      height: 400px;
+      width: 40%;
+      background-color: transparentize(white, .5);
+    }
+
+    .description {
+      height: 400px;
+      width: 40%;
+      background-color: transparentize(blue, .5);
+      display: none;
+    }
+
+    .addItem {
+      flex-grow: 1;
+    }
+
+  }
 }
 
 
