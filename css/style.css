@@ -91,14 +91,16 @@ nav {
   .projects .project1 {
     display: flex;
     justify-content: space-around; }
+    .projects .project1 img {
+      height: 400px; }
     .projects .project1 .image {
       height: 400px;
       width: 40%;
-      background-color: rgba(255, 255, 255, 0.5); }
+      position: absolute; }
     .projects .project1 .description {
       height: 400px;
       width: 40%;
-      background-color: rgba(0, 0, 255, 0.5);
-      display: none; }
-    .projects .project1 .addItem {
-      flex-grow: 1; }
+      background-color: white;
+      display: none;
+      position: absolute;
+      right: 50px; }

@@ -119,21 +119,24 @@ nav {
     display: flex;
     justify-content: space-around;
 
+    img {
+      height: 400px;
+    }
+
     .image {
       height: 400px;
       width: 40%;
-      background-color: transparentize(white, .5);
+      //background-color: transparentize(white, .5);
+      position: absolute;
     }
 
     .description {
       height: 400px;
       width: 40%;
-      background-color: transparentize(blue, .5);
+      background-color: white;
       display: none;
-    }
-
-    .addItem {
-      flex-grow: 1;
+      position: absolute;
+      right: 50px;
     }
 
   }

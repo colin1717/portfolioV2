@@ -146,6 +146,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/shiningmac.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.0336e+06,
+		"inputAbbreviatedPath": "\/images\/shiningmac.png",
+		"outputAbbreviatedPath": "\/images\/shiningmac.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/shiningmac2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.28524e+06,
+		"inputAbbreviatedPath": "\/images\/shiningmac2.png",
+		"outputAbbreviatedPath": "\/images\/shiningmac2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/takemehome1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 894610,
+		"inputAbbreviatedPath": "\/images\/takemehome1.png",
+		"outputAbbreviatedPath": "\/images\/takemehome1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/takemehome2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 680018,
+		"inputAbbreviatedPath": "\/images\/takemehome2.png",
+		"outputAbbreviatedPath": "\/images\/takemehome2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
