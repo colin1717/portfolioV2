@@ -5,69 +5,77 @@ body {
   margin: auto;
   text-align: center; }
   body h1 {
-    color: #ccc;
+    color: #333333;
     weight: 300; }
 
 nav {
   height: 38px;
   background-color: white;
-  color: #999999; }
+  color: black; }
+  nav .logo {
+    float: left;
+    height: 23px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 5px 0px 5px;
+    margin-left: 8px; }
   nav ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
     margin: 5px 15px; }
     nav ul li {
-      height: 25px;
+      height: 23px;
       border: 1px solid #ccc;
       border-radius: 5px;
-      padding: 5px 5px 0px 5px;
+      padding: 8px 5px 0px 5px;
       margin-left: 3px; }
       nav ul li:hover {
         border: 1px solid gray;
         background-color: #f2f2f2; }
 
 .desk-box {
-  position: relative;
   height: 600px;
+  display: flex;
+  align-items: flex-start;
+  justify-conent: center;
+  width: 100%;
+  margin: auto;
   background: url(../images/background.png);
   background-size: cover;
   background-attachment: fixed;
   overflow: hidden; }
-
-.mac {
-  width: 960px;
-  height: 600px;
-  position: absolute;
-  left: 25%;
-  margin-left: -225px;
-  top: 25%;
-  margin-top: -100px;
-  background-position: right;
-  background-image: url(../images/mac.png);
-  background-repeat: no-repeat;
-  background-size: 100%; }
-
-.ipad {
-  width: 960px;
-  height: 600px;
-  position: absolute;
-  background-image: url(../images/ipad.png);
-  background-position: bottom left;
-  background-repeat: no-repeat;
-  margin-left: 200px;
-  margin-top: 50px; }
-
-.iphone {
-  width: 150px;
-  height: 325px;
-  position: absolute;
-  background-image: url(../images/iphone.png);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  left: 25%;
-  margin-left: -200px;
-  margin-top: 325px; }
+  .desk-box .mac {
+    display: inline-block;
+    max-width: 700px;
+    min-width: 600px;
+    height: 600px;
+    margin: auto;
+    padding-top: 130px;
+    background-image: url(../images/mac.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+    flex-grow: 2;
+    flex-shrink: 2; }
+  .desk-box .ipad {
+    max-width: 600px;
+    height: 600px;
+    display: inline-block;
+    background-image: url(../images/ipad.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    flex-shrink: 0; }
+  .desk-box .iphone {
+    height: 600px;
+    max-width: 600px;
+    display: inline-block;
+    background-image: url(../images/iphone.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    flex-shrink: 0; }
 
 .content article {
   padding: 50px 0;

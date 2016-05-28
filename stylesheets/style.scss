@@ -6,7 +6,7 @@ body {
   text-align: center;
 
    h1 {
-  color: #ccc;
+  color: lighten(black, 20%);
   weight: 300;
   }
 }
@@ -14,7 +14,16 @@ body {
 nav {
   height: 38px;
   background-color: white;
-  color: darken(#ccc, 20%);
+  color: black;
+
+  .logo {
+    float: left;
+    height: 23px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px 5px 0px 5px;
+    margin-left: 8px;
+  }
 
   ul {
     display: flex;
@@ -23,11 +32,10 @@ nav {
     margin: 5px 15px;
 
     li {
-      //flex-basis: auto;
-      height: 25px;
+      height: 23px;
       border: 1px solid #ccc;
       border-radius: 5px;
-      padding: 5px 5px 0px 5px;
+      padding: 8px 5px 0px 5px;
       margin-left: 3px;
 
       &:hover {
@@ -39,51 +47,56 @@ nav {
 }
 
 .desk-box {
-  position: relative;
   height: 600px;
+  display: flex;
+  align-items: flex-start;
+  justify-conent: center;
+  width: 100%;
+  margin: auto;
   background: url(../images/background.png);
   background-size: cover;
-  //background-position: top center;
   background-attachment: fixed;
   overflow: hidden;
+
+  .mac {
+    display: inline-block;
+    max-width: 700px;
+    min-width: 600px;
+    height: 600px;
+    margin: auto;
+    padding-top: 130px;
+    background-image: url(../images/mac.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom center;
+    flex-grow: 2;
+    flex-shrink: 2;
+  }
+
+  .ipad {
+    max-width: 600px;
+    height: 600px;
+    display: inline-block;
+    background-image: url(../images/ipad.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
+
+  .iphone {
+    height: 600px;
+    max-width: 600px;
+    display: inline-block;
+    background-image: url(../images/iphone.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    flex-grow: 1;
+    flex-shrink: 0;
+  }
 }
 
-.mac {
-  width: 960px;
-  height: 600px;
-  position: absolute;
-  left: 25%;
-  margin-left: -225px;
-  top: 25%;
-  margin-top: -100px;
-  background-position: right;
-  background-image: url(../images/mac.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
 
-.ipad {
-  width: 960px;
-  height: 600px;
-  position: absolute;
-  background-image: url(../images/ipad.png);
-  background-position: bottom left;
-  background-repeat: no-repeat;
-  margin-left: 200px;
-  margin-top: 50px;
-}
-
-.iphone {
-  width: 150px;
-  height: 325px;
-  position: absolute;
-  background-image: url(../images/iphone.png);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  left: 25%;
-  margin-left: -200px;
-  margin-top: 325px;
-}
 
 .content {
   article {
