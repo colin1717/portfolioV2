@@ -83,7 +83,10 @@ nav {
   height: 1500px;
   background: url(../images/background.png);
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  text-align: center; }
+  .projects img {
+    width: 500px; }
   .projects .project-div {
     display: flex;
     justify-content: space-around;
@@ -93,7 +96,6 @@ nav {
     .projects .project-div .project-pic {
       height: 400px;
       width: 400px;
-      background-color: rgba(0, 0, 255, 0.5);
       position: absolute; }
     .projects .project-div .project-description {
       height: 400px;
@@ -118,5 +120,4 @@ nav {
       height: 400px;
       width: 400px;
       margin-left: -500px;
-      background-color: rgba(0, 0, 255, 0.5);
       position: absolute; }

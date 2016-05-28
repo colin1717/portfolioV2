@@ -13,7 +13,7 @@ $(window).scroll(function(){
     'transform' : 'translate(0px, ' + wScroll /16 + '%)'
   });
 
-  shiftLeft('#take-me-home .project-pic', '#take-me-home .project-description', 1.7, 2, wScroll);
+  shiftLeft('#take-me-home .project-pic', '#take-me-home .project-description', 1, 2.5, wScroll);
 
   shiftRight('#shining .project-pic', '#shining .project-description', 1.45, 2, wScroll);
 

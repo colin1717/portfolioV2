@@ -105,6 +105,11 @@ nav {
   background: url(../images/background.png);
   background-size: cover;
   background-attachment: fixed;
+  text-align: center;
+
+  img {
+    width: 500px;
+  }
 
   .project-div {
     display: flex;
@@ -116,7 +121,6 @@ nav {
     .project-pic {
       height: 400px;
       width: 400px;
-      background-color: transparentize(blue, .5);
       position: absolute;
     }
 
@@ -149,7 +153,6 @@ nav {
     height: 400px;
     width: 400px;
     margin-left: -500px;
-    background-color: transparentize(blue, .5);
     position: absolute;
   }
 }
