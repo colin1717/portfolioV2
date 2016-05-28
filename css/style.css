@@ -11,7 +11,8 @@ body {
 nav {
   height: 38px;
   background-color: white;
-  color: black; }
+  color: black;
+  margin: 3px 15px; }
   nav .logo {
     float: left;
     height: 23px;
@@ -22,8 +23,7 @@ nav {
   nav ul {
     display: flex;
     justify-content: flex-end;
-    list-style: none;
-    margin: 5px 15px; }
+    list-style: none; }
     nav ul li {
       height: 23px;
       border: 1px solid #ccc;
