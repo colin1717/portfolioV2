@@ -84,7 +84,10 @@ nav {
   background: url(../images/background.png);
   background-size: cover;
   background-attachment: fixed;
-  text-align: center; }
+  text-align: center;
+  color: white; }
+  .projects h2 {
+    padding-top: 25px; }
   .projects img {
     width: 500px; }
   .projects .project-div {
@@ -96,11 +99,13 @@ nav {
     .projects .project-div .project-pic {
       height: 400px;
       width: 400px;
-      position: absolute; }
+      position: absolute;
+      margin-top: 15px; }
     .projects .project-div .project-description {
       height: 400px;
       width: 400px;
-      background-color: rgba(255, 0, 0, 0.5);
+      background-color: white;
+      border-radius: 5px;
       margin-left: 500px;
       display: none; }
   .projects .project-div-even {
@@ -112,12 +117,14 @@ nav {
     .projects .project-div-even .project-description {
       height: 400px;
       width: 400px;
-      background-color: rgba(255, 0, 0, 0.5);
+      background-color: white;
       display: none;
+      border-radius: 5px;
       position: absolute;
       margin-left: -500px; }
     .projects .project-div-even .project-pic {
       height: 400px;
       width: 400px;
       margin-left: -500px;
-      position: absolute; }
+      position: absolute;
+      margin-top: 15px; }

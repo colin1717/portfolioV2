@@ -17,7 +17,7 @@ $(window).scroll(function(){
 
   shiftRight('#shining .project-pic', '#shining .project-description', 1.45, 2, wScroll);
 
-  shiftLeft('#upcoming .project-pic', '#upcoming .project-description', 1.5, .55, wScroll);
+  shiftLeft('#upcoming .project-pic', '#upcoming .project-description', 1.8, .52, wScroll);
 
 });
 
