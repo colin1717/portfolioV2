@@ -90,14 +90,33 @@ nav {
     margin: 20px 0 30px 0;
     width: 100%;
     height: 450px; }
-  .projects .project-pic {
-    height: 400px;
-    width: 400px;
-    background-color: rgba(0, 0, 255, 0.5);
-    position: absolute; }
-  .projects .project-description {
-    height: 400px;
-    width: 400px;
-    background-color: rgba(255, 0, 0, 0.5);
-    margin-left: 500px;
-    display: none; }
+    .projects .project-div .project-pic {
+      height: 400px;
+      width: 400px;
+      background-color: rgba(0, 0, 255, 0.5);
+      position: absolute; }
+    .projects .project-div .project-description {
+      height: 400px;
+      width: 400px;
+      background-color: rgba(255, 0, 0, 0.5);
+      margin-left: 500px;
+      display: none; }
+  .projects .project-div-even {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 30px 0;
+    width: 100%;
+    height: 450px; }
+    .projects .project-div-even .project-description {
+      height: 400px;
+      width: 400px;
+      background-color: rgba(255, 0, 0, 0.5);
+      display: none;
+      position: absolute;
+      margin-left: -500px; }
+    .projects .project-div-even .project-pic {
+      height: 400px;
+      width: 400px;
+      margin-left: -500px;
+      background-color: rgba(0, 0, 255, 0.5);
+      position: absolute; }
