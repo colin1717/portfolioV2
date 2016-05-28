@@ -80,36 +80,24 @@ nav {
 
 .projects {
   font-family: "Raleway", sans-serif;
-  height: 600px;
+  height: 1500px;
   background: url(../images/background.png);
   background-size: cover;
   background-attachment: fixed; }
-  .projects hr {
-    width: 600px; }
-  .projects h2 {
-    padding-top: 30px;
-    color: white; }
-  .projects .project1 {
+  .projects .project-div {
     display: flex;
     justify-content: space-around;
-    align-items: center; }
-    .projects .project1 img {
-      height: 400px; }
-    .projects .project1 .image {
-      height: 400px;
-      width: 40%;
-      position: absolute; }
-    .projects .project1 .description {
-      height: 300px;
-      width: 35%;
-      border-radius: 5px;
-      background-color: white;
-      display: none;
-      position: absolute;
-      right: 50px;
-      margin-top: 30px;
-      padding: 0px 10px 0 10px; }
-      .projects .project1 .description h3 {
-        padding-top: 15px; }
-      .projects .project1 .description p {
-        margin: 0 5px 0 5px; }
+    margin: 20px 0 30px 0;
+    width: 100%;
+    height: 450px; }
+  .projects .project-pic {
+    height: 400px;
+    width: 400px;
+    background-color: rgba(0, 0, 255, 0.5);
+    position: absolute; }
+  .projects .project-description {
+    height: 400px;
+    width: 400px;
+    background-color: rgba(255, 0, 0, 0.5);
+    margin-left: 500px;
+    display: none; }
