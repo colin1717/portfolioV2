@@ -98,7 +98,6 @@ nav {
     margin-bottom: 40px; }
     .projects .project-row .project-pic {
       height: 350px;
-      background-color: rgba(0, 0, 255, 0.5);
       margin-top: 25px; }
       .projects .project-row .project-pic img {
         height: 330px;
@@ -107,6 +106,24 @@ nav {
       height: 400px;
       background-color: white;
       border-radius: 15px; }
+      .projects .project-row .project-description h4 {
+        padding-top: 40px; }
+      .projects .project-row .project-description p {
+        padding: 0 25px 0 25px; }
+      .projects .project-row .project-description .techs {
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; }
+        .projects .project-row .project-description .techs .tech-button {
+          width: 100px;
+          height: 25px;
+          color: white;
+          background-color: rgba(255, 0, 0, 0.7);
+          border-radius: 8px;
+          padding-top: 4px;
+          margin: 5px 5px 0px 5px; }
 
 .space {
   height: 2000px; }

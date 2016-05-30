@@ -134,7 +134,6 @@ nav {
 
     .project-pic {
       height: 350px;
-      background-color: transparentize(blue, .5);
       margin-top: 25px;
 
       img {
@@ -147,6 +146,33 @@ nav {
       height: 400px;
       background-color: white;
       border-radius: 15px;
+
+      h4 {
+        padding-top: 40px;
+      }
+
+      p {
+        padding: 0 25px 0 25px;
+      }
+
+      .techs {
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .tech-button {
+          width: 100px;
+          height: 25px;
+          color: white;
+          background-color: transparentize(red, .3);
+          border-radius: 8px;
+          padding-top: 4px;
+          margin: 5px 5px 0px 5px;
+        }
+      }
+
     }
   }
 }
