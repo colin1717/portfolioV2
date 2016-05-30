@@ -124,6 +124,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ipadbig.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 371889,
+		"inputAbbreviatedPath": "\/images\/ipadbig.png",
+		"outputAbbreviatedPath": "\/images\/ipadbig.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/iphone.png": {
 		"fileType": 32768,
 		"ignore": 0,
