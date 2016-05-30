@@ -113,6 +113,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ipad-contact.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 245731,
+		"inputAbbreviatedPath": "\/images\/ipad-contact.png",
+		"outputAbbreviatedPath": "\/images\/ipad-contact.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ipad.png": {
 		"fileType": 32768,
 		"ignore": 0,
