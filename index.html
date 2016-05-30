@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>ColinHancock.io</title>
   <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/bower_components/skeleton/css/skeleton.css">
+  <link rel="stylesheet" href="./bower_components/skeleton/css/skeleton.css">
   <link rel="stylesheet" href="./css/style.css">
   <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -35,9 +35,9 @@
   <nav>
     <div class="logo"><strong>colinhancock.io</strong></div>
     <ul>
-      <li><strong>about</strong></li>
-      <li><strong>projects</strong></li>
-      <li><strong>contact</strong></li>
+      <li id='about-button'><strong>about</strong></li>
+      <li id='projects-button'><strong>projects</strong></li>
+      <li id='contact-button'><strong>contact</strong></li>
     </ul>
   </nav>
 
@@ -47,7 +47,7 @@
     <div class="ipad"></div>
   </header>
 
-  <div class="content">
+  <div class="content" id='content'>
     <article>
       <h1>colinhancock.io</h1>
       <hr>
@@ -55,7 +55,7 @@
     </article>
   </div>
 
-  <div class="projects">
+  <div class="projects" id="projects">
     <h2><strong>Projects</strong></h2>
     <hr>
 
@@ -63,7 +63,7 @@
 
       <div class="row project-row">
         <div class="six columns project-pic" id='takemehome'>
-          <img src="/images/takemehome1.png" alt="">
+          <a href="https://secret-scrubland-79329.herokuapp.com/" target="_blank"><img src="./images/takemehome1.png" alt=""></a>
         </div>
         <div class="six columns project-description">
           <h4>Take Me Home</h4>
@@ -117,13 +117,13 @@
           </div>
         </div>
         <div class="six columns project-pic" id='shining'>
-          <img src="/images/shiningmac.png" alt="">
+          <a href="http://colin1717.github.io/" target='_blank'><img src="./images/shiningmac.png" alt=""></a>
         </div>
       </div>
 
       <div class="row project-row">
         <div class="six columns project-pic" id='crowdcare'>
-          <img src="/images/takemehome2.png" alt="">
+          <a href="https://secret-scrubland-79329.herokuapp.com/" target="_blank"><img src="./images/takemehome2.png" alt="Take Me Home"></a>
         </div>
         <div class="six columns project-description">
           <h4>Crowd Care</h4>
@@ -133,6 +133,8 @@
     </div>
 
   </div>
+
+  <div class="contact" id='contact'></div>
 
   <div class="space"></div>
 

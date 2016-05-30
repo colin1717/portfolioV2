@@ -6,9 +6,9 @@ body {
   text-align: center;
 
    h1 {
-  color: lighten(black, 20%);
-  weight: 300;
-  }
+    color: lighten(black, 20%);
+    weight: 300;
+    }
 }
 
 // nav
@@ -39,6 +39,7 @@ nav {
       border-radius: 5px;
       padding: 8px 5px 0px 5px;
       margin-left: 3px;
+      cursor: pointer;
 
       &:hover {
         border: 1px solid darken(#ccc, 30%);
@@ -114,7 +115,7 @@ nav {
 //projects
 .projects {
   height: 1350px;
-  background: url(/images/background.png);
+  background: url(../images/background.png);
   background-size: cover;
   background-attachment: fixed;
 
