@@ -97,17 +97,18 @@ nav {
   .projects .project-row {
     margin-bottom: 40px; }
     .projects .project-row .project-pic {
-      height: 350px;
-      margin-top: 25px; }
+      height: 350px; }
       .projects .project-row .project-pic img {
         height: 330px;
-        text-align: center; }
+        text-align: center;
+        display: none; }
     .projects .project-row .project-description {
-      height: 400px;
+      height: 300px;
       background-color: white;
-      border-radius: 15px; }
+      border-radius: 15px;
+      margin-top: 10px; }
       .projects .project-row .project-description h4 {
-        padding-top: 40px; }
+        padding-top: 30px; }
       .projects .project-row .project-description p {
         padding: 0 25px 0 25px; }
       .projects .project-row .project-description .techs {

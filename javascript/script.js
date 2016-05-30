@@ -2,8 +2,6 @@ $(window).scroll(function(){
 
   var wScroll = $(this).scrollTop();
 
-  console.log(wScroll);
-
   $('.mac').css({
     'transform' : 'translate(0px, ' + wScroll /8 + '%)'
   });
@@ -12,15 +10,14 @@ $(window).scroll(function(){
     'transform' : 'translate(0px, ' + wScroll /16 + '%)'
   });
 
-  // if(wScroll > $('.project1').offset().top - ($(window).height() / 1.6) && wScroll < 1000) {
-  //   $('.project1 .image').css({
-  //     'right' : wScroll - ($(window).height() / 2)
-  //   });
-  //   $('.project1 .description').show(500);
-  // };
-
-  // if(wScroll < ($('.project1').offset().top / 1.6)) {
-  //   $('.project1 .description').hide(500);
-  // }
-
+  showImg("#takemehome", wScroll);
+  showImg("#shining", wScroll);
+  showImg("#crowdcare", wScroll);
 });
+
+
+function showImg(div, wScroll) {
+  if(wScroll > $(div).offset().top - 700) {
+    $(div + " img").show(500);
+  }
+}

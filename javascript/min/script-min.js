@@ -1,1 +1,1 @@
-$(window).scroll(function(){var s=$(this).scrollTop();console.log(s),$(".mac").css({transform:"translate(0px, "+s/8+"%)"}),$(".ipad").css({transform:"translate(0px, "+s/16+"%)"})});
+function showImg(s,o){o>$(s).offset().top-700&&$(s+" img").show(500)}$(window).scroll(function(){var s=$(this).scrollTop();$(".mac").css({transform:"translate(0px, "+s/8+"%)"}),$(".ipad").css({transform:"translate(0px, "+s/16+"%)"}),showImg("#takemehome",s),showImg("#shining",s),showImg("#crowdcare",s)});
