@@ -11,6 +11,8 @@ body {
   }
 }
 
+// nav
+
 nav {
   height: 38px;
   background-color: white;
@@ -45,6 +47,8 @@ nav {
     }
   }
 }
+
+//hero
 
 .desk-box {
   height: 600px;
@@ -96,7 +100,7 @@ nav {
   }
 }
 
-
+//about
 
 .content {
   article {
@@ -107,66 +111,74 @@ nav {
   }
 }
 
-.space {
-  height: 2000px;
-}
-
+//projects
 .projects {
-
-  font-family: "Raleway", sans-serif;
-  height: 600px;
-  background: url(../images/background.png);
+  height: 1600px;
+  background: url(/images/background.png);
   background-size: cover;
   background-attachment: fixed;
 
-  hr {
-    width: 600px;
-  }
-
   h2 {
-    padding-top: 30px;
     color: white;
+    padding-top: 35px;
   }
 
-  .project1 {
+  hr {
+    width: 450px;
+    border-color: white;
+  }
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  .project-row {
+    margin-bottom: 40px;
 
-    img {
-      height: 400px;
+
+    .project-pic {
+      height: 350px;
+      margin-top: 25px;
+
+      img {
+        height: 330px;
+        text-align: center;
+      }
     }
 
-    .image {
+    .project-description {
       height: 400px;
-      width: 40%;
-      //background-color: transparentize(white, .5);
-      position: absolute;
-    }
-
-    .description {
-      height: 300px;
-      width: 35%;
-      border-radius: 5px;
       background-color: white;
-      display: none;
-      position: absolute;
-      right: 50px;
-      margin-top: 30px;
-      padding: 0px 10px 0 10px;
+      border-radius: 15px;
 
-      h3 {
-        padding-top: 15px;
+      h4 {
+        padding-top: 40px;
       }
 
       p {
-        margin: 0 5px 0 5px;
+        padding: 0 25px 0 25px;
+      }
+
+      .techs {
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .tech-button {
+          width: 100px;
+          height: 25px;
+          color: white;
+          background-color: transparentize(red, .3);
+          border-radius: 8px;
+          padding-top: 4px;
+          margin: 5px 5px 0px 5px;
+        }
       }
 
     }
-
   }
 }
 
+
+.space {
+  height: 2000px;
+}
 
