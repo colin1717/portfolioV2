@@ -15,6 +15,24 @@ $(window).scroll(function(){
   showImg("#crowdcare", wScroll);
 });
 
+$('#about-button').click(function(){
+  $('html, body').animate({
+    scrollTop: $('#content').offset().top
+  }, 1000);
+})
+
+$('#projects-button').click(function(){
+  $('html, body').animate({
+    scrollTop: $('#projects').offset().top
+  }, 1000);
+})
+
+$('#contact-button').click(function(){
+  $('html, body').animate({
+    scrollTop: $('#contact').offset().top
+  }, 1000);
+})
+
 
 function showImg(div, wScroll) {
   if(wScroll > $(div).offset().top - 700) {

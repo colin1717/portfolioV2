@@ -29,7 +29,8 @@ nav {
       border: 1px solid #ccc;
       border-radius: 5px;
       padding: 8px 5px 0px 5px;
-      margin-left: 3px; }
+      margin-left: 3px;
+      cursor: pointer; }
       nav ul li:hover {
         border: 1px solid gray;
         background-color: #f2f2f2; }
@@ -85,7 +86,7 @@ nav {
 
 .projects {
   height: 1350px;
-  background: url(/images/background.png);
+  background: url(../images/background.png);
   background-size: cover;
   background-attachment: fixed; }
   .projects h2 {
