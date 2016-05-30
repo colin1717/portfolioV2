@@ -134,21 +134,23 @@ nav {
 
     .project-pic {
       height: 350px;
-      margin-top: 25px;
+
 
       img {
         height: 330px;
         text-align: center;
+        display: none;
       }
     }
 
     .project-description {
-      height: 400px;
+      height: 300px;
       background-color: white;
       border-radius: 15px;
+      margin-top: 10px;
 
       h4 {
-        padding-top: 40px;
+        padding-top: 30px;
       }
 
       p {
