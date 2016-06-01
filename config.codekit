@@ -113,6 +113,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/crowdcare.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 683048,
+		"inputAbbreviatedPath": "\/images\/crowdcare.png",
+		"outputAbbreviatedPath": "\/images\/crowdcare.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/ipad-contact.png": {
 		"fileType": 32768,
 		"ignore": 0,
