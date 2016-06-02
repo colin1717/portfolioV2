@@ -51,7 +51,7 @@ function moveContactIpad(wScroll) {
   if(wScroll > $('.contact-ipad').offset().top - 500) {
     $(".contact-ipad").animate({
     'margin-right': '50%',
-    'background-size': '90%',
+    'background-size': '80%',
     }, 500);
   }
 }
