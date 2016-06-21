@@ -1,14 +1,19 @@
+var isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
+console.log(isSafari);
+
 $(window).scroll(function(){
 
   var wScroll = $(this).scrollTop();
 
-  $('.mac').css({
-    'transform' : 'translate(0px, ' + wScroll /8 + '%)'
-  });
+  if (!isSafari) {
+    $('.mac').css({
+      'transform' : 'translate(0px, ' + wScroll /8 + '%)'
+    });
 
-  $('.ipad').css({
-    'transform' : 'translate(0px, ' + wScroll /12 + '%)'
-  });
+    $('.ipad').css({
+      'transform' : 'translate(0px, ' + wScroll /12 + '%)'
+    });
+  }
 
   showImg("#takemehome", wScroll);
   showImg("#shining", wScroll);
