@@ -232,5 +232,12 @@ nav {
       cursor: pointer;
     }
   }
+
+  //contact resume
+  .resume {
+    height: 400px;
+    width: 400px;
+    background-color: transparentize(blue, .5);
+  }
 }
 
