@@ -19,6 +19,7 @@ $(window).scroll(function(){
   showImg("#shining", wScroll);
   showImg("#crowdcare", wScroll);
   showImg('#brothersports', wScroll);
+  showImg('#seefood', wScroll);
 
   moveContactIpad(wScroll);
 });
