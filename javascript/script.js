@@ -18,6 +18,7 @@ $(window).scroll(function(){
   showImg("#takemehome", wScroll);
   showImg("#shining", wScroll);
   showImg("#crowdcare", wScroll);
+  showImg('#brothersports', wScroll);
 
   moveContactIpad(wScroll);
 });

@@ -85,7 +85,7 @@ nav {
   text-align: center; }
 
 .projects {
-  height: 1350px;
+  height: auto;
   background: url(../images/background.png);
   background-size: cover;
   background-attachment: fixed; }
